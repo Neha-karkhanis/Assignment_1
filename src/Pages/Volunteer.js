@@ -14,8 +14,6 @@ function VolunteerRegistration() {
     const [emailError, setEmailError] = useState("");
     const [phoneNumberError, setPhoneNumberError] = useState("");
 
-    const [show, setShow] = useState(false);
-
     const[disabled, setDisabled] = useState(false);
 
     const handleInputChange = (e) => {
@@ -89,7 +87,6 @@ function VolunteerRegistration() {
             setLastName("");
             setEmail("");
             setPhoneNumber("");
-            setShow(true);
         }
     }
 
